@@ -1,0 +1,34 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Data files (too large for git)
+data/raw/
+data/cleaned/
+data/gold/
+data/spark_demo/
+data/quality/
+
+# Keep sample data
+!data/sample/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI temp
+*.pbix.tmp
+
+# Python
+*.egg-info/
+dist/
+build/

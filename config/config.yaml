@@ -1,0 +1,47 @@
+# =============================================================================
+# EngineeringPulse Configuration
+# =============================================================================
+
+# Company model
+company:
+  name: "TechNova Engineering"
+  teams:
+    - Backend
+    - Frontend
+    - Data Platform
+    - DevOps
+    - Security
+    - ML
+    - Mobile
+    - Platform
+
+# Date range for data extraction (6 full months)
+date_range:
+  start: "2026-03-01"
+  end: "2026-08-31"
+
+# GitHub API settings
+api:
+  base_url: "https://api.github.com"
+  per_page: 100          # Max items per API page (GitHub max is 100)
+  max_retries: 3         # Number of retries on failure
+  retry_delay: 5         # Seconds to wait between retries
+  rate_limit_buffer: 100 # Pause when remaining requests drops below this
+
+# File paths
+paths:
+  raw_data: "data/raw"
+  cleaned_data: "data/cleaned"
+  quality_reports: "data/quality"
+  gold_data: "data/gold"
+  sample_data: "data/sample"
+
+# Repository config file
+repository_config: "config/repositories.csv"
+
+# Seeded ownership change so SCD Type 2 has real history to show (demo data, not from GitHub)
+scd2_demo:
+  repository: "pallets/flask"
+  from_team: Backend
+  to_team: Platform
+  change_date: "2026-06-01"

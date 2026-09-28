@@ -1,0 +1,21 @@
+owner,repository,team,secondary_team,technology
+pallets,flask,Backend,Security,Python
+psf,requests,Backend,Platform,Python
+sqlalchemy,sqlalchemy,Backend,Data Platform,Python
+preactjs,preact,Frontend,Platform,JavaScript
+alpinejs,alpine,Frontend,Mobile,JavaScript
+solidjs,solid,Frontend,Backend,TypeScript
+mage-ai,mage-ai,Data Platform,ML,Python
+meltano,meltano,Data Platform,DevOps,Python
+kubernetes-sigs,kind,DevOps,Platform,Go
+prometheus,node_exporter,DevOps,Data Platform,Go
+fluxcd,flux2,DevOps,Security,Go
+gitleaks,gitleaks,Security,DevOps,Go
+zaproxy,zaproxy,Security,Backend,Java
+huggingface,accelerate,ML,Data Platform,Python
+Lightning-AI,pytorch-lightning,ML,Platform,Python
+react-native-community,cli,Mobile,Frontend,TypeScript
+ionic-team,capacitor,Mobile,Frontend,TypeScript
+invertase,react-native-firebase,Mobile,Backend,TypeScript
+nektos,act,Platform,DevOps,Go
+caddyserver,caddy,Platform,Backend,Go
